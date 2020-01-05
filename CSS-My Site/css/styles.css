@@ -1,0 +1,181 @@
+/*
+div{
+  background-color: #adff2f;
+}
+*/
+/* pixels is a  static value i.e. if font size = 90px then it will not be affected by the font size of parent or if we change the prefernces it will still
+remain the same size. But in case of em and %(16px=100%=1em) these are not static values so can be changed by the user and will be affected by the font size of its
+parent*/
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 90px;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  margin-top: 0;
+  font-family: 'Montserrat', cursive;
+  color: #66BFBF;
+  font-size: 3rem;
+}
+
+h3 {
+  margin-top: 0;
+  font-family: 'Montserrat', cursive;
+  color: #11999E;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  background-color: white;
+  border-style: dotted;
+  border-bottom: none;
+  border-color: grey;
+  border-width: 7px;
+  width: 4%;
+}
+
+p {
+  font-weight: bold;
+  color: #40514E;
+}
+
+a {
+  color: #11999e;
+  font-family: 'Montserrat', cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6
+}
+
+.container1 {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.container3 {
+  background-color: #66BFBF;
+  color: #11999E;
+  padding: 50px 0 20px;
+  margin-top: 100px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.A {
+  border-radius: 100%;
+  width: 250px;
+  height: 200px;
+  margin-top: 90px;
+}
+
+.B {
+  border-radius: 100%;
+  width: 330px;
+  height: 280px;
+  float: left;
+  margin-right: 30px;
+}
+
+.C {
+  border-radius: 100%;
+  width: 300px;
+  height: 250px;
+  float: right;
+  margin-left: 30px;
+}
+
+.iyo {
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+.btn {
+  color: #11999E;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.G {
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+
+.K {
+  width: 30%;
+  margin: 50px auto 60px auto;
+  font-family: 'Montserrat', cursive;
+}
+
+.N {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: 'Montserrat', cursive;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
